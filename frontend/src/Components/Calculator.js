@@ -17,8 +17,7 @@ const Calculator = () => {
   } 
 
     return(<>   
-      <div class="calcbox bg-white text-black no-underline">
-        {JSON.stringify(data)}
+      <div class="calcbox bg-white text-black no-underline"> 
         <div class="pb-2 mb-2">
           <label className="block">Original Price</label>
           <input name='total_amount' class="w-40 border-2" type="number" onChange={(e)=> handleChange(e)} /> 
